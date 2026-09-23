@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle Royale | Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+    <main class="login-shell">
+        <section class="login-intro" aria-label="Battle Royale">
+            <a class="brand" href="index.html" aria-label="Battle Royale home"><span class="brand-mark">BR</span><span>BATTLE ROYALE</span></a>
+            <div class="intro-copy">
+                <p class="eyebrow">SEASON 12 // LIVE NOW</p>
+                <h1>Enter the<br>battlefield.</h1>
+                <p>Build your squad, choose your loadout, and take the final zone.</p>
+            </div>
+            <div class="season-status"><span class="status-dot"></span><span>Servers online</span><strong>18,492 players deployed</strong></div>
+        </section>
+        <section class="login-panel" aria-labelledby="login-title">
+            <div class="login-card">
+                <p class="eyebrow">PLAYER ACCESS</p>
+                <h2 id="login-title">Welcome back</h2>
+                <p class="muted">Sign in to deploy to the lobby.</p>
+                <form class="login-form" action="game.html">
+                    <label for="player-name">Player name</label>
+                    <input id="player-name" name="player" type="text" placeholder="Enter your player name" autocomplete="username" required>
+                    <label for="access-code">Access code</label>
+                    <input id="access-code" name="code" type="password" placeholder="Enter your access code" autocomplete="current-password" required>
+                    <div class="form-options"><label class="remember"><input type="checkbox" name="remember"> <span>Remember me</span></label><a href="#support">Need help?</a></div>
+                    <button class="primary-button" type="submit">ENTER LOBBY <span aria-hidden="true">&#8594;</span></button>
+                </form>
+                <p class="signup-copy">New recruit? <a href="#create-account">Create account</a></p>
+            </div>
+            <p class="legal">By entering, you agree to the Code of Conduct.</p>
+        </section>
+    </main>
+</body>
+</html>
